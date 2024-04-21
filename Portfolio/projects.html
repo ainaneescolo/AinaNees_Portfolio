@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ca">
+<header>
+	<title> Aina Nees Portfolio </title>
+	<link rel="stylesheet" href="style.css">
+</header>
+<body>
+	<section class="background"></section>
+
+	<div class="banner">
+		<div class="navbar">
+			<a href="index.html"><img src="img/logo_color.png" class="logo"></a>
+			<ul>
+				<li><a class="underline-btn" href="menu.html"><span></span>Menu</a></li>
+			</ul>
+		</div>
+		<div class="projectImage"></div>
+		<div class="text">
+			<img src="img/transparent.png" class="image_hover">
+
+			<ul>
+				<li>
+					<a class="underline-btn-menu" href="project_firefly.html"
+					   onmouseover="changeImage('img/firefly_cover.png')" onmouseout="changeImage('img/transparent.png')"><span></span>Firefly</a>
+				</li>
+				<li></li>
+				<li>
+					<a class="underline-btn-menu" href="project_rainbowfactory.html"
+					   onmouseover="changeImage('img/rainbowfactory_cover.png')" onmouseout="changeImage('img/transparent.png')"><span></span>Rainbow Factory</a>
+				</li>
+				<li></li>
+<!--				<li>-->
+<!--					<a class="underline-btn-menu" href="project_vr.html"-->
+<!--					   onmouseover="changeImage('img/logo.png')" onmouseout="changeImage('img/transparent.png')"><span></span>VR Grow A Garden</a>-->
+<!--				</li>-->
+<!--				<li></li>-->
+				<li>
+					<a class="underline-btn-menu" href="project_space.html"
+					   onmouseover="changeImage('img/space_cover.png')" onmouseout="changeImage('img/transparent.png')"><span></span>Space</a>
+				</li>
+<!--				<li></li>-->
+<!--				<li>-->
+<!--					<a class="underline-btn-menu" href="project_recorder.html"-->
+<!--					   onmouseover="changeImage('img/logo.png')" onmouseout="changeImage('img/transparent.png')"><span></span>Recorder</a>-->
+<!--				</li>-->
+			</ul>
+		</div>
+	</div>
+	<div>
+	</div>
+	<script>
+		function changeImage(imageUrl) {
+			document.querySelector('.image_hover').src = imageUrl;
+		}
+	</script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+TO DO:
+	- Home page	(OK)
+	- Background	(OK)
+	- Background Static	(NOP)
+	- Menu		(InProgress)
+	- Projects	(InProgress (Anim Foto))
+		- Firefly
+		- Rainbow Factory
+		- VR Grow A Garden
+		- Space
+		- Pivihex
+		- Recorder
+	- About		(OK)
+	- CV
+	- Contact
