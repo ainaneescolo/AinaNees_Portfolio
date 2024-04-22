@@ -1,66 +1,63 @@
 <!DOCTYPE html>
 <html lang="ca">
 	<header>
+		<meta charset="UTF-8">
+		<meta http-equiv="x-ua-compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width,
+		initial-scale=1.0">
 		<title> Aina Nees Portfolio </title>
 		<link rel="stylesheet" href="style.css">
+		<link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
 	</header>
 	<body>
-		<section id="background2"></section>
+		<section class="background">
+			<div></div>
+		</section>
 
-		<div class="banner">
-			<div class="navbar">
-				<a href="index.html"><img src="img/logo_color.png" class="logo"></a>
-				<ul>
-					<li><a class="underline-btn" href="menu.html"><span></span>Menu</a></li>
-				</ul>
-			</div>
-		</div>
-		<div class="scroll-container">
-			<div class="scroll-content">
+		<header class="header">
+				<a href="index.html" class="logo"><img src="img/logo_color.png" class="logo"></a>
+				
+				<nav class="navbar">
+					<a href="index.html">Home</a>
+					<a href="about.html">About</a>
+					<a href="https://aneescolo.github.io/AinaNees_CV/" target="_blank">CV</a>
+					<a href="projects.html" class="active">Projects</a>
+				</nav>
+			</header>
+		
+		<section class="home">
+			<div class="project-content">
 				<h1>Rainbow Factory</h1>
-				<img src="img/rainbowfactory_cover.png" class="foto">
-				<p><a class="underline-btn" target="_blank" href="https://github.com/aneescolo/Rainbow_Factory"><span></span>Github</a></p>
-				<br>
+				<ul>
+					<li><i class='bx bxs-user' ></i> Gameplay Programmer</li>
+					<li><i class='bx bxs-group' ></i> 5</li>
+					<li><i class='bx bxs-time-five'></i> 6 Weeks</li>
+					<li><i class='bx bxs-cog'></i> Unity Engine</li>		
+				</ul>
 				<p>
-					There’s been a breakdown at Rainbow Factory, we need your help! Put on your helmet and with the help of a friend,<br>
-					prepare and deliver packages to different parts of the world. But you have to take care of the watchful robot<br>
-					that will do everything in its power to hinder your work. Are you ready for this challenge?
+					A cooperative game where each player will be responsible for different tasks, together they will have to coordinate
+					to paint and deliver packages to different continents. In addition, a vigilant robot will be trying to prevent the
+					delivery of any package. The educational part of our game is found by mixing and using primary colors to get another
+					variety of colors. Another educational aspect are the countries and continents, the packages arrive with a flag of
+					a country and the player will have to place it at the sending point of the correct continent. The serious aspect is
+					to deliver the packages, to differentiate the different delivery points by continents.
 				</p>
-				<div class="container">
-					<img src="img/rainbowfactory_cover2.png" class="foto">
-					<ul>
-						<li><p>Role: Gameplay Programmer</p></li>
-						<li><p>Team Size: 5</p></li>
-						<li><p>Time frame: 6 Weeks</p></li>
-						<li><p>Engine: Unity Engine</p></li>
-						<li></li>
-					</ul>
+				<div>
+					<img src="img/rainbowfactory_tutorial.png">
+					<img src="img/rainbowfactory_ui.png">
 				</div>
-				<p>
-					A cooperative game where each player will be responsible for different tasks, together they will have to coordinate<br>
-					to paint and deliver packages to different continents. In addition, a vigilant robot will be trying to prevent the <br>
-					delivery of any package. The educational part of our game is found by mixing and using primary colors to get another<br>
-					variety of colors. Another educational aspect are the countries and continents, the packages arrive with a flag of<br>
-					a country and the player will have to place it at the sending point of the correct continent. The serious aspect is <br>
-					to deliver the packages, to differentiate the different delivery points by continents.<br>
-
-				</p>
-				<br>
-				<div class="containerHorizontal">
-					<div>
-						<img src="img/rainbowfactory_game.png" class="foto">
-					</div>
-					<div>
-						<img src="img/rainbowfactory_tutorial.png" class="foto">
-					</div>
-					<div>
-						<img src="img/rainbowfactory_ui.png" class="foto">
-					</div>
-					<div>
-						<img src="img/rainbowfactory_lose.png" class="foto">
-					</div>
+				<div class="project-sci">
+					<a href="#"><i class='bx bxs-joystick'></i></a>
+					<a href="https://github.com/ainaneescolo/RinbowFactory" target="_blank"><i class='bx bxl-github'></i></a>
 				</div>
 			</div>
-		</div>
+			<div class="project-content">
+				<video width="700" height="350" controls>
+					<source src="img/rainbowfactory_gameplay.mp4" type="video/mp4">
+					Your browser does not support the video tag.
+				</video>
+			</div>
+
+		</section>
 	</body>
 </html>

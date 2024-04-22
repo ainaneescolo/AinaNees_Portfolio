@@ -1,59 +1,52 @@
 <!DOCTYPE html>
 <html lang="ca">
 	<header>
+		<meta charset="UTF-8">
+		<meta http-equiv="x-ua-compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width,
+		initial-scale=1.0">
 		<title> Aina Nees Portfolio </title>
 		<link rel="stylesheet" href="style.css">
+		<link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
 	</header>
 	<body>
-		<section id="background2"></section>
+		<section class="background">
+			<div></div>
+		</section>
 
-		<div class="banner">
-			<div class="navbar">
-				<a href="index.html"><img src="img/logo_color.png" class="logo"></a>
-				<ul>
-					<li><a class="underline-btn" href="menu.html"><span></span>Menu</a></li>
-				</ul>
-			</div>
-		</div>
-		<div class="scroll-container">
-			<div class="scroll-content">
+		<header class="header">
+				<a href="index.html" class="logo"><img src="img/logo_color.png" class="logo"></a>
+				
+				<nav class="navbar">
+					<a href="index.html">Home</a>
+					<a href="about.html">About</a>
+					<a href="https://aneescolo.github.io/AinaNees_CV/" target="_blank">CV</a>
+					<a href="projects.html" class="active">Projects</a>
+				</nav>
+			</header>
+		
+		<section class="home">
+			<div class="project-content">
 				<h1>Recorder</h1>
-				<img src="img/firefly_cover.png" class="foto">
+				<ul>
+					<li><i class='bx bxs-user' ></i> Gameplay Programmer</li>
+					<li><i class='bx bxs-group' ></i> 2</li>
+					<li><i class='bx bxs-time-five'></i> 4 Weeks</li>
+					<li><i class='bx bxs-cog'></i> Unity Engine</li>		
+				</ul>
 				<p>
-					Firefly is a 2D platformer. It’s a point-to-point B game. Fireflu offers a simple yet captivating aesthetic.<br>
-					Enter the forest and discover how to save the creatures that reside in it with powers that only you possess.<br>
-					In the game your actions will lead to different endings, accompanied by animations and effects to transport within its history.
+					This short project consists of a recorder.<br>
+					You can play different sounds and record sequences, and replay them.
+					There is a small menu with other extra sounds which allows you to exchange the sound assigned to each button.
 				</p>
-				<div class="container">
-					<img src="img/firefly_cover.png" class="foto">
-					<ul>
-						<li><p>Role: Gameplay Programmer</p></li>
-						<li><p>Team Size: 2</p></li>
-						<li><p>Time frame: 4 Weeks</p></li>
-						<li><p>Engine: Unity Engine</p></li>
-						<li></li>
-					</ul>
-				</div>
-				<h2>Mechanics</h2>
-				<div class="containerHorizontal">
-					<div>
-						<h3>Purify</h3>
-						<img src="img/firefly_pure.gif" class="foto">
-					</div>
-					<div>
-						<h3>Double Jump</h3>
-						<img src="img/firefly_jump.gif" class="foto">
-					</div>
-					<div>
-						<h3>Attack</h3>
-						<img src="img/firefly_attack.gif" class="foto">
-					</div>
-					<div>
-						<h3>Recharge</h3>
-						<img src="img/firefly_recharge.gif" class="foto">
-					</div>
+				<div class="project-sci">
+					<a href="#"><i class='bx bxs-joystick'></i></a>
+					<a href="https://github.com/ainaneescolo/GravadoraPanasonic" target="_blank"><i class='bx bxl-github'></i></a>
 				</div>
 			</div>
-		</div>
+			<div class="project-content">
+				<img src="img/recorder_game.png">
+			</div>
+		</section>
 	</body>
 </html>
